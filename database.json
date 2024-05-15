@@ -34,6 +34,26 @@
       "email": "sydney@gmail.com",
       "fullName": "Sydney Sharp",
       "id": 7
+    },
+    {
+      "email": "cam@gmail.com",
+      "fullName": "Cam Sarrett",
+      "id": 8
+    },
+    {
+      "email": "blake@gmail.com",
+      "fullName": "Blake Smith",
+      "id": 9
+    },
+    {
+      "email": "regina@gmail.com",
+      "fullName": "Regina",
+      "id": 10
+    },
+    {
+      "email": "leo@gmail.com",
+      "fullName": "Leo",
+      "id": 11
     }
   ],
   "tasks": [
@@ -79,48 +99,552 @@
     },
     {
       "id": 11,
-      "description": "Shower"
-    },
-    {
-      "id": 12,
       "description": "Clean for one hour"
     },
     {
-      "id": 13,
+      "id": 12,
       "description": "Do laundry"
     },
     {
-      "id": 14,
+      "id": 13,
       "description": "Drink 72oz of water today"
+    },
+    {
+      "id": 14,
+      "description": "Dance nonstop to your favorite song"
+    },
+    {
+      "id": 15,
+      "description": "Garden for 45min"
+    },
+    {
+      "id": 16,
+      "description": "Play an instrument for 15min"
+    },
+    {
+      "id": 17,
+      "description": "Take a long walk around the neighborhood"
+    },
+    {
+      "id": 18,
+      "description": "Forget your phone for three hours"
+    },
+    {
+      "id": 19,
+      "description": "Organize something needing organizing"
+    },
+    {
+      "id": 20,
+      "description": "Text a friend a sweet lil note"
     }
   ],
   "daysTasks": [
     {
-      "id": 1,
-      "entryId": 1,
-      "taskId": 1
+      "entryId": 2,
+      "taskId": 4,
+      "id": 149
     },
     {
-      "id": 2,
-      "entryId": 1,
-      "taskId": 2
+      "entryId": 2,
+      "taskId": 6,
+      "id": 150
     },
     {
-      "id": 3,
-      "entryId": 1,
-      "taskId": 3
+      "entryId": 5,
+      "taskId": 10,
+      "id": 151
     },
     {
-      "id": 4,
-      "entryId": 1,
-      "taskId": 4
+      "entryId": 5,
+      "taskId": 7,
+      "id": 152
+    },
+    {
+      "entryId": 5,
+      "taskId": 4,
+      "id": 153
+    },
+    {
+      "entryId": 5,
+      "taskId": 2,
+      "id": 154
+    },
+    {
+      "entryId": 5,
+      "taskId": 5,
+      "id": 155
+    },
+    {
+      "entryId": 8,
+      "taskId": 3,
+      "id": 158
+    },
+    {
+      "entryId": 8,
+      "taskId": 9,
+      "id": 159
+    },
+    {
+      "entryId": 8,
+      "taskId": 12,
+      "id": 160
+    },
+    {
+      "entryId": 10,
+      "taskId": 16,
+      "id": 173
+    },
+    {
+      "entryId": 10,
+      "taskId": 12,
+      "id": 174
+    },
+    {
+      "entryId": 10,
+      "taskId": 17,
+      "id": 175
+    },
+    {
+      "entryId": 10,
+      "taskId": 7,
+      "id": 176
+    },
+    {
+      "entryId": 10,
+      "taskId": 3,
+      "id": 177
+    },
+    {
+      "entryId": 10,
+      "taskId": 6,
+      "id": 178
+    },
+    {
+      "entryId": 10,
+      "taskId": 15,
+      "id": 179
+    },
+    {
+      "entryId": 10,
+      "taskId": 13,
+      "id": 180
+    },
+    {
+      "entryId": 11,
+      "taskId": 5,
+      "id": 181
+    },
+    {
+      "entryId": 11,
+      "taskId": 10,
+      "id": 182
+    },
+    {
+      "entryId": 11,
+      "taskId": 17,
+      "id": 183
+    },
+    {
+      "entryId": 11,
+      "taskId": 6,
+      "id": 184
+    },
+    {
+      "entryId": 11,
+      "taskId": 8,
+      "id": 185
+    },
+    {
+      "entryId": 11,
+      "taskId": 18,
+      "id": 186
+    },
+    {
+      "entryId": 12,
+      "taskId": 15,
+      "id": 187
+    },
+    {
+      "entryId": 12,
+      "taskId": 20,
+      "id": 188
+    },
+    {
+      "entryId": 12,
+      "taskId": 14,
+      "id": 189
+    },
+    {
+      "entryId": 12,
+      "taskId": 16,
+      "id": 190
+    },
+    {
+      "entryId": 13,
+      "taskId": 11,
+      "id": 191
+    },
+    {
+      "entryId": 13,
+      "taskId": 19,
+      "id": 192
+    },
+    {
+      "entryId": 13,
+      "taskId": 17,
+      "id": 193
+    },
+    {
+      "entryId": 13,
+      "taskId": 18,
+      "id": 194
+    },
+    {
+      "entryId": 14,
+      "taskId": 14,
+      "id": 201
+    },
+    {
+      "entryId": 14,
+      "taskId": 10,
+      "id": 202
+    },
+    {
+      "entryId": 14,
+      "taskId": 7,
+      "id": 203
+    },
+    {
+      "entryId": 15,
+      "taskId": 16,
+      "id": 204
+    },
+    {
+      "entryId": 15,
+      "taskId": 2,
+      "id": 205
+    },
+    {
+      "entryId": 15,
+      "taskId": 4,
+      "id": 206
+    },
+    {
+      "entryId": 15,
+      "taskId": 9,
+      "id": 207
+    },
+    {
+      "entryId": 16,
+      "taskId": 16,
+      "id": 208
+    },
+    {
+      "entryId": 16,
+      "taskId": 2,
+      "id": 209
+    },
+    {
+      "entryId": 16,
+      "taskId": 4,
+      "id": 210
+    },
+    {
+      "entryId": 16,
+      "taskId": 9,
+      "id": 211
+    },
+    {
+      "entryId": 17,
+      "taskId": 16,
+      "id": 212
+    },
+    {
+      "entryId": 17,
+      "taskId": 2,
+      "id": 213
+    },
+    {
+      "entryId": 17,
+      "taskId": 4,
+      "id": 214
+    },
+    {
+      "entryId": 17,
+      "taskId": 9,
+      "id": 215
+    },
+    {
+      "entryId": 18,
+      "taskId": 11,
+      "id": 216
+    },
+    {
+      "entryId": 18,
+      "taskId": 9,
+      "id": 217
+    },
+    {
+      "entryId": 19,
+      "taskId": 11,
+      "id": 218
+    },
+    {
+      "entryId": 19,
+      "taskId": 9,
+      "id": 219
+    },
+    {
+      "entryId": 19,
+      "taskId": 7,
+      "id": 220
+    },
+    {
+      "entryId": 20,
+      "taskId": 15,
+      "id": 221
+    },
+    {
+      "entryId": 20,
+      "taskId": 9,
+      "id": 222
+    },
+    {
+      "entryId": 20,
+      "taskId": 12,
+      "id": 223
+    },
+    {
+      "entryId": 21,
+      "taskId": 18,
+      "id": 224
+    },
+    {
+      "entryId": 21,
+      "taskId": 16,
+      "id": 225
+    },
+    {
+      "entryId": 21,
+      "taskId": 8,
+      "id": 226
+    },
+    {
+      "entryId": 22,
+      "taskId": 17,
+      "id": 227
+    },
+    {
+      "entryId": 22,
+      "taskId": 9,
+      "id": 228
+    },
+    {
+      "entryId": 22,
+      "taskId": 1,
+      "id": 229
+    },
+    {
+      "entryId": 23,
+      "taskId": 7,
+      "id": 230
+    },
+    {
+      "entryId": 23,
+      "taskId": 16,
+      "id": 231
+    },
+    {
+      "entryId": 24,
+      "taskId": 17,
+      "id": 232
+    },
+    {
+      "entryId": 24,
+      "taskId": 12,
+      "id": 233
+    },
+    {
+      "entryId": 24,
+      "taskId": 10,
+      "id": 234
+    },
+    {
+      "entryId": 24,
+      "taskId": 14,
+      "id": 235
+    },
+    {
+      "entryId": 25,
+      "taskId": 9,
+      "id": 236
+    },
+    {
+      "entryId": 25,
+      "taskId": 17,
+      "id": 237
+    },
+    {
+      "entryId": 6,
+      "taskId": 6,
+      "id": 238
+    },
+    {
+      "entryId": 6,
+      "taskId": 8,
+      "id": 239
+    },
+    {
+      "entryId": 6,
+      "taskId": 14,
+      "id": 240
+    },
+    {
+      "entryId": 6,
+      "taskId": 11,
+      "id": 241
+    },
+    {
+      "entryId": 6,
+      "taskId": 5,
+      "id": 242
+    },
+    {
+      "entryId": 26,
+      "taskId": 17,
+      "id": 243
+    },
+    {
+      "entryId": 26,
+      "taskId": 18,
+      "id": 244
+    },
+    {
+      "entryId": 27,
+      "taskId": 17,
+      "id": 245
+    },
+    {
+      "entryId": 27,
+      "taskId": 20,
+      "id": 246
+    },
+    {
+      "entryId": 27,
+      "taskId": 9,
+      "id": 247
     }
   ],
   "entries": [
     {
-      "id": 1,
       "userId": 1,
-      "date": "2024-02-25"
+      "date": "2024-05-10",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "date": "2024-05-11",
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "date": "2024-05-11",
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "date": "2024-05-12",
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "date": "2024-05-12",
+      "id": 10
+    },
+    {
+      "userId": 8,
+      "date": "2024-05-13",
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "date": "2024-05-13",
+      "id": 12
+    },
+    {
+      "userId": 7,
+      "date": "2024-05-13",
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "date": "2024-05-13",
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "date": "2024-05-13",
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "date": "2024-05-13",
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "date": "2024-05-13",
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "date": "2024-05-13",
+      "id": 18
+    },
+    {
+      "userId": 1,
+      "date": "2024-05-13",
+      "id": 19
+    },
+    {
+      "userId": 10,
+      "date": "2024-05-13",
+      "id": 20
+    },
+    {
+      "userId": 10,
+      "date": "2024-05-13",
+      "id": 21
+    },
+    {
+      "userId": 10,
+      "date": "2024-05-13",
+      "id": 22
+    },
+    {
+      "userId": 1,
+      "date": "2024-05-13",
+      "id": 23
+    },
+    {
+      "userId": 1,
+      "date": "2024-05-13",
+      "id": 24
+    },
+    {
+      "userId": 1,
+      "date": "2024-05-14",
+      "id": 25
+    },
+    {
+      "userId": 1,
+      "date": "2024-05-14",
+      "id": 26
+    },
+    {
+      "userId": 11,
+      "date": "2024-05-14",
+      "id": 27
     }
   ]
 }
